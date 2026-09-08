@@ -1,0 +1,41 @@
+# --- Environnement Virtuel Python ---
+venv/
+.venv/
+ENV/
+pyvenv.cfg
+
+# --- Fichiers de cache et temporaires Python ---
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# --- Données et Cache LocalStack ---
+localstack-data/
+.localstack/
+
+# --- Certificats et Clés Privées (SÉCURITÉ CRITIQUE) ---
+*.pem
+*.crt
+*.key
+*.p12
+
+# --- Variables d'environnement (Identifiants / Clés API) ---
+.env
+.env.local
+
+# --- Modèles de Machine Learning (Fichiers lourds ou générés) ---
+*.pkl
+*.h5
+*.joblib
+*.pb
+
+# --- Dossier système Postman ---
+.postman/
+
+# --- Fichiers système et IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+datasets
+boto3
+joblib
+Flask
+gunicorn
+python-dotenv
