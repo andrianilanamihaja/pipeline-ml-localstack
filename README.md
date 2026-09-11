@@ -244,7 +244,7 @@ Permet de lancer :
 ### 1. Cloner le projet
 
 ```bash
-git clone <URL_DU_REPOSITORY>
+git clone https://github.com/andrianilanamihaja/pipeline-ml-localstack.git
 cd pipeline_ml_SageMaker_Vertex_AI_sur_LocalStack
 ```
 
